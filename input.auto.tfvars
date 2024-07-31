@@ -14,7 +14,7 @@ keyvault_rg = "kubernetes"
 
 keyvault_name = "inception-kv"
 
-azure_region = "useast"
+azure_region = "australiaeast"
 
 resource_group = "kubernetes"
 
