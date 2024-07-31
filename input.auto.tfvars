@@ -1,8 +1,8 @@
 aks_vnet_name = "aksvnet"
 
-sshkvsecret = "akssshpubkey"
+sshkvsecret = "inceptionsshpub"
 
-clientidkvsecret = "spn-id"
+clientidkvsecret = "inception-kv"
 
 spnkvsecret = "spn-secret"
 
@@ -10,17 +10,17 @@ vnetcidr = ["10.0.0.0/24"]
 
 subnetcidr = ["10.0.0.0/25"]
 
-keyvault_rg = "aksdemo-rg"
+keyvault_rg = "kubernetes"
 
-keyvault_name = "aksdemocluster-kv"
+keyvault_name = "inception-kv"
 
-azure_region = "australiaeast"
+azure_region = "useast"
 
-resource_group = "aksdemocluster-rg"
+resource_group = "kubernetes"
 
-cluster_name = "aksdemocluster"
+cluster_name = "inceptioncluster"
 
-dns_name = "aksdemocluster"
+dns_name = "inceptioncluster"
 
 admin_username = "aksuser"
 
